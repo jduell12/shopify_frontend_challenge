@@ -13,7 +13,6 @@ const SearchBar = () => {
           <img src={magnifying} alt="Search" className="glass" />
           <input type="text" id="movie" />
         </div>
-        <button>Search</button>
       </form>
     </div>
   );

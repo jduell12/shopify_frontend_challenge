@@ -59,6 +59,10 @@ html, body{
     padding: 0;
 }
 
+body{
+	padding: 5%;
+}
+
 label{
 	display: block;
 }
@@ -80,7 +84,7 @@ h4{
 }
 
 p, label, input, link, a{
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
 
 p{
