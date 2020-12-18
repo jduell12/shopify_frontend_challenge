@@ -1,15 +1,20 @@
 //styles
 import "../styles/App.scss";
 
+//context
+import { MovieContext } from "../context/MovieContext";
+
 //components
-import SearchBar from "./SearchBar";
+import { SearchBar } from "./index";
 
 function App() {
   return (
-    <div className="App">
-      <h1>The Shoppies</h1>
-      <SearchBar />
-    </div>
+    <MovieContext.Provider>
+      <div className="App">
+        <h1>The Shoppies</h1>
+        <SearchBar />
+      </div>
+    </MovieContext.Provider>
   );
 }
 
